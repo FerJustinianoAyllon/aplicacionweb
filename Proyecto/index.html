@@ -2,21 +2,78 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Proyecto</title>
+    <title>MANACO</title>
     <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
 
 <header>
-    <h1>Proyecto</h1>
+    <h1>Manaco</h1>
+    <nav>
+        <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Productos</a></li>
+            <li><a href="#">Ofertas</a></li>
+            <li><a href="#">Contacto</a></li>
+        </ul>
+    </nav>
 </header>
 
 <main>
-    <p>Contenido principal</p>
+    <section class="contenedor">
+        <h2>Bienvenido</h2>
+        <p>Explora nuestro contenido</p>
+
+        <div class="cards">
+            <div class="card">
+                <img src="imagenes/airForce1.jpg" alt="Tenis AF1">
+                <h3>Tenis Nike Air Force 1</h3>
+                <p>Los tenis AF1, conocidos como Air Force 1, son un clásico de estilo urbano que combina diseño atemporal con gran comodidad.
+                Destacan por su silueta robusta, suela resistente y detalles icónicos que los hacen versátiles.
+                </p>
+                <button onclick="alert('Próximamente')">Ver más</button>
+            </div>
+
+            <div class="card">
+                <img src="imagenes/Balenciaga.jpg" alt="Botin Balenciaga">
+                <h3>Botin Balenciaga</h3>
+                <p>Es un calzado tipo zapatilla estilo “sock sneaker” de diseño moderno. Tiene un ajuste alto tipo media, en color negro con tejido elástico que se adapta al pie. La suela es gruesa, blanca con detalles ondulados en negro.</p>
+                <button onclick="alert('Próximamente')">Ver más</button>
+            </div>
+
+            <div class="card">
+                <img src="imagenes/stilettos.jpg" alt="Zapatos de tacon Stilettos">
+                <h3>Zapatos de tacón Stilettos</h3>
+                <p>Los zapatos de tacón stilettos son un tipo de calzado elegante caracterizado por su tacón alto, delgado y puntiagudo, que estiliza la figura y alarga visualmente las piernas.</p>
+                <button onclick="alert('Próximamente')">Ver más</button>
+            </div>
+        </div>
+    </section>
 </main>
 
 <footer>
-    <p>Pie de página</p>
+    <div class="footer-contenido">
+    <div class="footer-seccion">
+        <h3>Contacto</h3>
+        <p><i class="fas fa-envelope"></i> proyectofermanaco@email.com</p>
+        <p><i class="fas fa-phone"></i> +591 76666666</p>
+    </div>
+
+    <div class="footer-seccion">
+        <h3>Redes</h3>
+        <div class="redes">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-github"></i></a>
+        </div>
+    </div>
+
+</div>
+
+    <div class="footer-bottom">
+        <p>© 2026 Manaco - Todos los derechos reservados</p>
+    </div>
 </footer>
 
 <script src="script.js"></script>
