@@ -119,15 +119,16 @@ main {
     margin: 15px auto;
     padding: 10px;
     border: none;
-    background-color: #1abc9c;
+    background-color: #B3001B;
     color: white;
     border-radius: 5px;
     cursor: pointer;
     transition: 0.3s;
 }
 
-.card button:hover {
-    background-color: #16a085;
+button:hover {
+    background-color: rgba(223, 62, 62, 0.2);
+    color: black;
 }
 
 /* FOOTER */
